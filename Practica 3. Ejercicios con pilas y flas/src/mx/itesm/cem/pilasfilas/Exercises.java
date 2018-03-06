@@ -113,8 +113,7 @@ public class Exercises {
 		}
 		
 		String result = pila1.peek();
-		String nResult = result;
-		int numero = Integer.parseInt(nResult);
+		int numero = Integer.parseInt(result);
 		return numero;
 	}	
 
