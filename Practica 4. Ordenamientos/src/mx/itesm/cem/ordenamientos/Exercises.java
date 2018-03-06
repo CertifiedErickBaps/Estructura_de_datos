@@ -1,9 +1,6 @@
 package mx.itesm.cem.ordenamientos;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -43,20 +40,19 @@ public class Exercises {
 		List<Integer> ocho = new LinkedList<>();
 		List<Integer> nueve = new LinkedList<>();
 		
-		int i = 0;
 		while(!copia.isEmpty()) {
-			if(copia.get(i) <= 9 && copia.get(i) >= 0) cero.add(copia.remove(i));
-			else if(copia.get(i) <= 19 && copia.get(i) >= 10) uno.add(copia.remove(i));
-			else if(copia.get(i) <= 29 && copia.get(i) >= 20) dos.add(copia.remove(i));
-			else if(copia.get(i) <= 39 && copia.get(i) >= 30) tres.add(copia.remove(i));
-			else if(copia.get(i) <= 49 && copia.get(i) >= 40) cuatro.add(copia.remove(i));
-			else if(copia.get(i) <= 59 && copia.get(i) >= 50) cinco.add(copia.remove(i));
-			else if(copia.get(i) <= 69 && copia.get(i) >= 60) seis.add(copia.remove(i));
-			else if(copia.get(i) <= 79 && copia.get(i) >= 70) siete.add(copia.remove(i));
-			else if(copia.get(i) <= 89 && copia.get(i) >= 80) ocho.add(copia.remove(i));
-			else if(copia.get(i) <= 99 && copia.get(i) >= 90) nueve.add(copia.remove(i));
-			i++;
+			if(copia.get(0) <= 9 && copia.get(0) >= 0) cero.add(copia.remove(0));
+			else if(copia.get(0) <= 19 && copia.get(0) >= 10) uno.add(copia.remove(0));
+			else if(copia.get(0) <= 29 && copia.get(0) >= 20) dos.add(copia.remove(0));
+			else if(copia.get(0) <= 39 && copia.get(0) >= 30) tres.add(copia.remove(0));
+			else if(copia.get(0) <= 49 && copia.get(0) >= 40) cuatro.add(copia.remove(0));
+			else if(copia.get(0) <= 59 && copia.get(0) >= 50) cinco.add(copia.remove(0));
+			else if(copia.get(0) <= 69 && copia.get(0) >= 60) seis.add(copia.remove(0));
+			else if(copia.get(0) <= 79 && copia.get(0) >= 70) siete.add(copia.remove(0));
+			else if(copia.get(0) <= 89 && copia.get(0) >= 80) ocho.add(copia.remove(0));
+			else if(copia.get(0) <= 99 && copia.get(0) >= 90) nueve.add(copia.remove(0));
 		}
+		Collections.sort(cero);
 		Collections.sort(uno);
 		Collections.sort(dos);
 		Collections.sort(tres);
@@ -68,6 +64,7 @@ public class Exercises {
 		Collections.sort(nueve);
 		
 		List<Integer> actual = new LinkedList<>();
+		actual.addAll(cero);
 		actual.addAll(uno);
 		actual.addAll(dos);
 		actual.addAll(tres);
@@ -77,10 +74,7 @@ public class Exercises {
 		actual.addAll(siete);
 		actual.addAll(ocho);
 		actual.addAll(nueve);
-		return actual;
-		
+		return actual;	
 	}
-	
-	
 	
 }
