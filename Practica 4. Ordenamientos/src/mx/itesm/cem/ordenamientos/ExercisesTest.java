@@ -124,7 +124,7 @@ public class ExercisesTest {
                 Exercises.bucketSort(integerListEmpty));
     }
 
-//    @Test
+    @Test
     public void testBogoSort() {
         List<Integer> a = Arrays.asList(57, 62, 17, 3, 8,
                 17, 29, 90);
@@ -142,7 +142,7 @@ public class ExercisesTest {
                 Exercises.bogoSort(doubleListEmpty));
     }
 
-//    @Test
+    @Test
     public void testQuickSort() {
         assertEquals(stringListEmpty,
                 Exercises.quickSort(stringListEmpty));

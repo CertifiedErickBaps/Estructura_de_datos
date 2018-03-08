@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Practica 3. Ejercicios con pilas y flas/src/mx/itesm/cem/pilasfilas/Main.java"/>
+        <listEntry value="/Practica 4. Ordenamientos/src/mx/itesm/cem/ordenamientos/main.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="mx.itesm.cem.pilasfilas.Main"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practica 3. Ejercicios con pilas y flas"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="mx.itesm.cem.ordenamientos.main"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practica 4. Ordenamientos"/>
 </launchConfiguration>
