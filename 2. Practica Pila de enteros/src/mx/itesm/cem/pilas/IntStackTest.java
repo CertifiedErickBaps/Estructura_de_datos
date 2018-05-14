@@ -23,35 +23,7 @@ class IntStackTest {
                 assertThrows(IllegalStateException.class,
                         () -> s.push(42)).getMessage());
     }
-
-//    @Test
-//    public void test2() {
-//        IntStack s = new IntStack(10);
-//        s.push(4);
-//        s.push(8);
-//        s.push(15);
-//        s.push(16);
-//        s.push(23);
-//        s.push(42);
-//        assertEquals(42, s.peek());
-//        assertEquals(42, s.pop());
-//        assertEquals(23, s.peek());
-//        assertEquals(23, s.pop());
-//        assertEquals(16, s.peek());
-//        assertEquals(16, s.pop());
-//        assertEquals(15, s.peek());
-//        assertEquals(15, s.pop());
-//        assertEquals(8, s.peek());
-//        assertEquals(8, s.pop());
-//        assertEquals(4, s.peek());
-//        assertEquals(4, s.pop());
-//        assertEquals("Stack Underflow",
-//                assertThrows(NoSuchElementException.class,
-//                        () -> s.pop()).getMessage());
-//        assertEquals("Stack Underflow",
-//                assertThrows(NoSuchElementException.class,
-//                        () -> s.peek()).getMessage());
-//    }
+7
 //
 //    @Test
 //    public void test3() {
